@@ -5,7 +5,8 @@ using System.Collections;
 {
 
 	static public void ToStart()
-	{
+	{ 
+		Messenger.Broadcast("changegamestate", STATES.START);
 		Application.LoadLevel(Application.loadedLevel);
 	}
 	static public void ToPlay()
