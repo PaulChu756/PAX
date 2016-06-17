@@ -94,7 +94,6 @@ public class Aircraft : MonoBehaviour
 
         // setting tail rot vel to min vel. Increase or decrease by player in
         tailRotorVel = hoverTailRotorVel - Input.GetAxis("Horizontal");
-        //tailRotorVel = hoverTailRotorVel - Input.GetAxis("down");
         //Debug.Log(Input.GetAxis("down"));
 
         // limit rotor vel to 0 and 1 to make sure for a greater force.

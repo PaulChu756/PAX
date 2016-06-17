@@ -19,7 +19,7 @@ public class AircraftGUI : MonoBehaviour
         GUI.Label(new Rect(0, 128, 128, 128), throttle[(int)(helicopterThrottle * 10)]);
         GUI.Label(new Rect(40, 40, 256, 256), Mathf.Round(groundHit.distance) + " METERS ");
         GUI.Label(new Rect(20, 182, 256, 256), " ENGINE ");
-        Debug.Log(helicopterThrottle);
+        //Debug.Log(helicopterThrottle);
     }
 
     public GameObject player;
